@@ -14,7 +14,7 @@ The buzzer is a little more complicated as I used a 5V active one to get enough 
 
 As for the case, it just involves 3D printing the parts provided in the '3d files' folder. You may need to adapt it for your use and for variations between ESP32 boards, so I've included the OpenSCAD file too. The photos should give enough info for you to lay out a piece of stripboard (a.k.a. veroboard) with the OLED display and buttons to fit the case openings. To mount the rotary encoder module I cut a hole in some stripboard and fixed the encoder to the back. The case includes holes in the corners that you can glue M3 nuts into to bolt the top and bottom of the case together. For the dial I decided to LASER cut some 1.5mm thick cherry wood, although you could change the OpenSCAD design to remove the need for that. However, if you decide to cut it there's an SVG included to help you out.
 
-Also, if you want to visit the Thingiverse page for this project, for more details about the models and 3D printing, [please just click here to go there]().
+Also, if you want to visit the Thingiverse page for this project, for more details about the models and 3D printing, [please just click here to go there](https://www.thingiverse.com/thing:3521653).
 
 ## Using the pendant
 
