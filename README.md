@@ -24,5 +24,6 @@ From the operating mode you can use the OK button to access a menu of other func
 
 In zeroing mode you can press an XYZ button and the pendant will tell the CNC controller to zero that axis at the current position. To zero all axes just press the XYZ buttons one at a time, waiting for a confirmation beep in between. The final mode is the focusing one, which is only of use if you have a LASER module. Basically it turns on the LASER at a low power level: I set the value for my 5W dode-LASER so please adjust it to suit your own LASER so as to minimise injury and damage risks. The first time you enter this mode the LASER will turn on, allowing you to focus it or to go back to jogging mode to set your origin position with a visible LASER-dot. The second time will turn the LASER off, although it'll also turn off automatically if you exit back to operating mode (all modes and menus can be exited with the BACK button).
 
+## And finally!
 
-
+If you'd like to read my blog-post about this project [please click here to visit it](https://cncmakerzone.co.uk/make-a-grbl-cnc-pendant-with-a-bluetooth-data-link).
