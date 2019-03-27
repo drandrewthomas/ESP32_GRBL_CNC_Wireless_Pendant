@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="210mm"
+   height="297mm"
+   viewBox="0 0 210 297"
+   version="1.1"
+   id="svg8"
+   inkscape:version="0.92.2 (5c3e80d, 2017-08-06)"
+   sodipodi:docname="focussingoff.svg"
+   inkscape:export-filename="C:\Users\andre\Desktop\For CNC pendant\focusingoff.png"
+   inkscape:export-xdpi="15.72855"
+   inkscape:export-ydpi="15.72855">
+  <defs
+     id="defs2" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.999971"
+     inkscape:cx="411.94664"
+     inkscape:cy="772.62864"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     showgrid="false" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <path
+       style="fill:none;stroke:#000000;stroke-width:4.23333311;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 4.4400275,155.33188 38.694074,96.702023 72.45066,155.47401 Z"
+       id="path826"
+       inkscape:connector-curvature="0" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:23.23474884px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.58086866"
+       x="145.56152"
+       y="119.28908"
+       id="text848"><tspan
+         sodipodi:role="line"
+         x="145.56152"
+         y="119.28908"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';text-align:center;text-anchor:middle;stroke-width:0.58086866"
+         id="tspan852">LASER</tspan><tspan
+         sodipodi:role="line"
+         x="145.56152"
+         y="148.33252"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';text-align:center;text-anchor:middle;stroke-width:0.58086866"
+         id="tspan861">OFF</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:18.99495506px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.4748739"
+       x="23.891562"
+       y="79.630409"
+       id="text858"><tspan
+         sodipodi:role="line"
+         id="tspan856"
+         x="23.891562"
+         y="79.630409"
+         style="stroke-width:0.4748739">FOCUSING MODE</tspan></text>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1.58749998;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 2.9609035,86.775848 H 208.67932"
+       id="path860"
+       inkscape:connector-curvature="0" />
+    <ellipse
+       style="fill:#050505;fill-opacity:1;stroke:#0b0b0b;stroke-width:1.58749998;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="path863"
+       cx="32.41193"
+       cy="129.38403"
+       rx="4.1011014"
+       ry="3.836514" />
+    <ellipse
+       style="fill:#050505;fill-opacity:1;stroke:#0b0b0b;stroke-width:1.58749998;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="path863-8"
+       cx="44.715233"
+       cy="129.38402"
+       rx="4.1011014"
+       ry="3.836514" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:2.64583325;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 22.357616,140.89357 c 0,0 7.408441,5.9532 15.610643,5.68862 8.202203,-0.26459 15.346055,-4.89487 15.346055,-4.89487"
+       id="path880"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccc" />
+  </g>
+</svg>
