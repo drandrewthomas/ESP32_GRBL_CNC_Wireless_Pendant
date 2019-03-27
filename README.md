@@ -14,3 +14,13 @@ The buzzer is a little more complicated as I used a 5V active one to get enough 
 
 As for the case, it just involves 3D printing the parts provided in the '3d files' folder. You may need to adapt it for your use and for variations between ESP32 boards, so I've included the OpenSCAD file too. The photos should give enough info for you to lay out a piece of stripboard (a.k.a. veroboard) with the OLED display and buttons to fit the case openings. To mount the rotary encoder module I cut a hole in some stripboard and fixed the encoder to the back. The case includes holes in the corners that you can glue M3 nuts into to bolt the top and bottom of the case together. For the dial I decided to LASER cut some 1.5mm thick cherry wood, although you could change the OpenSCAD design to remove the need for that. However, if you decide to cut it there's an SVG included to help you out.
 
+Also, if you want to visit the Thingiverse page for this project, for more details about the models and 3D printing, [please just click here to go there]().
+
+## Using the pendant
+
+When you power up the pendant (usually through your cable to the CNC controller board) it'll show a splash screen and soon after start in operating mode (as in the photo above). That means it will pass through any commands sent between your PC/table and the CNC controller. Basically that means it'll act just like any other wireless or wired way of sending G-Code to your CNC. To connect via Bluetooth you'll need to know the pendants' identifier, which is 'CNCESP32'.
+
+From the operating mode you can use the OK button to access a menu of other functions: jogging mode, zeroing mode and focusing mode. The modes are quite easy to change or add to in the code if they don't suit your needs. Use the rotary encoder dial to scroll through them. The OK button then lets you enter that mode. In jogging mode you can choose the access to move using the XYZ buttons and turn the dial clockwise and counter-clockwise to move the selected access. For coarser, faster, movement press the rotary encoder dial down while turning, as the encoder has a switch built in. Coarser movement goes three times further than normal jogging.
+
+
+
