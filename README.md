@@ -22,5 +22,7 @@ When you power up the pendant (usually through your cable to the CNC controller 
 
 From the operating mode you can use the OK button to access a menu of other functions: jogging mode, zeroing mode and focusing mode. The modes are quite easy to change or add to in the code if they don't suit your needs. Use the rotary encoder dial to scroll through them. The OK button then lets you enter that mode. In jogging mode you can choose the access to move using the XYZ buttons and turn the dial clockwise and counter-clockwise to move the selected access. For coarser, faster, movement press the rotary encoder dial down while turning, as the encoder has a switch built in. Coarser movement goes three times further than normal jogging.
 
+In zeroing mode you can press an XYZ key and the pendant will tell the CNC controller to zero that axis at the current position. To zero all axes just press the XYZ buttons one at a time, waiting for a beep in between. The final mode is the focusing one, which is only of use if you have a LASER module. Basically it turns on the LASER at a low power level: I set the value for my 5W dode-LASER so please adjust it to suit your own LASER so as to minimise injury and damage risks. The first time you enter this mode the LASER will turn on, allowing you to focus it or to go back to jogging mode to set your origin position with a visible LAER-dot. The second time will turn the LASER off, although it'll also turn off automatically if you exit back to operating mode (all modes and menus can be exited with the BACK button).
+
 
 
