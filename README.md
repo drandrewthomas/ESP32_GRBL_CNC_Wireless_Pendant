@@ -16,6 +16,28 @@ As for the case, it just involves 3D printing the parts provided in the '3d file
 
 Also, if you want to visit the Thingiverse page for this project, for more details about the models and 3D printing, [please just click here to go there](https://www.thingiverse.com/thing:3521653).
 
+## Parts list
+
+The exact parts needed will depend on how you decide to build the project, but the list below is what I used, in case you find it useful:
+
+* 1x 0.96 Inch SSD1306 OLED I2C Display 128x64 pixels
+
+* 5x PCB mounting push switches
+
+* 1x Arduino rotary encoder module brick on PCB
+
+* 1x ESP32 board (I used an ESP32 doit devkit v1)
+
+* 1x 220 ohm resistor
+
+* 1x 2n2222A transistor
+
+* 1x 5V mini active buzzer
+
+* 4x M3 nuts and bolts
+
+* 10k pullup resistors for push switches if needed
+
 ## Using the pendant
 
 When you power up the pendant (usually through your cable to the CNC controller board) it'll show a splash screen and soon after start in operating mode (as in the photo above). That means it will pass through any commands sent between your PC/tablet and the CNC controller. Basically that means it'll act just like any other wireless or wired way of sending G-Code to your CNC. To connect via Bluetooth you'll need to know the pendants' identifier, which is 'CNCESP32'.
