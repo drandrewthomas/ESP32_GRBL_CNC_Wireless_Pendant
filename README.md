@@ -26,9 +26,9 @@ The exact parts needed will depend on how you decide to build the project, but t
 
 * 1x Arduino rotary encoder module brick on PCB
 
-* 1x ESP32 board (I used an ESP32 doit devkit v1)
+* 1x ESP32 board (I used an ESP32 DOIT DevKit v1)
 
-* 1x 220 ohm resistor
+* 1x 220-ohm resistor
 
 * 1x 2n2222A transistor
 
@@ -36,7 +36,7 @@ The exact parts needed will depend on how you decide to build the project, but t
 
 * 4x M3 nuts and bolts
 
-* 10k pullup resistors for push switches if needed
+* 10 k-ohm pullup resistors for push switches where needed
 
 ## Using the pendant
 
