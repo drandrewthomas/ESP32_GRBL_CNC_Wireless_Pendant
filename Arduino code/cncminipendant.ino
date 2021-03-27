@@ -10,6 +10,7 @@
 #include "BluetoothSerial.h"
 #include <Adafruit_GFX.h>
 #include <Adafruit_SSD1306.h>
+// Adafruit busio library must now be installed in library manager too
 
 #if !defined(CONFIG_BT_ENABLED) || !defined(CONFIG_BLUEDROID_ENABLED)
 #error Bluetooth is not enabled! Please run `make menuconfig` to and enable it
@@ -30,7 +31,7 @@ int modenum=0,beeplen=0,rotary_alast,rotary_swlast,jogaxis,currfunc=0;
 bool sw1=false,sw2=false,sw3=false,firsttime=false,beeping=false;
 bool sw1changed=false,sw2changed=false,sw3changed=false,laseron=false;
 long beepstart;
-Adafruit_SSD1306 display(0);
+Adafruit_SSD1306 display(128,64,&Wire,0);
 
 void setup()
 {
@@ -45,7 +46,7 @@ void setup()
   pinMode (BUZZER,OUTPUT);
   Serial.begin(115200);
   SerialBT.begin("CNCESP32");
-  display.begin(SSD1306_SWITCHCAPVCC,0x3C);
+  display.begin(SSD1306_SWITCHCAPVCC,0x3C); // Some displays may be 0x3D
   display.clearDisplay();
   display.drawBitmap(0,0,splash_bmp,splash_width,splash_height,WHITE);
   display.display();
@@ -422,5 +423,3 @@ void startbeeping(int bl)
   beeping=true;
   digitalWrite(BUZZER,HIGH);
 }
-
-
