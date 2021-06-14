@@ -14,6 +14,8 @@ The buzzer is a little more complicated as I used a 5V active one to get enough 
 
 As for the case, it just involves 3D printing the parts provided in the '3d files' folder. You may need to adapt it for your use and for variations between ESP32 boards, so I've included the OpenSCAD file too. The photos should give enough info for you to lay out a piece of stripboard (a.k.a. veroboard) with the OLED display and buttons to fit the case openings. To mount the rotary encoder module I cut a hole in some stripboard and fixed the encoder to the back. The case includes holes in the corners that you can glue M3 nuts into to bolt the top and bottom of the case together. For the dial I decided to LASER cut some 1.5mm thick cherry wood, although you could change the OpenSCAD design to remove the need for that. However, if you decide to cut it there's an SVG included to help you out.
 
+Finally, if your CNC controller board doesn't support 3.3V signals on the UART serial connection, you will need a level-convertor board to interface with the pendant. A cheap two channel one, such as sold for I2C level conversion, should do the job. If your CNC controller board has sufficient current limiting resistors on the serial transmit and receive pins (e.g. some Woodpecker ones have 100 ohm resistors) you may get away without level conversion, but for complete peace of mind it's safest to add level conversion to prevent frying your ESP32 circuits.
+
 ## Parts list
 
 The exact parts needed will depend on how you decide to build the project, but the list below is what I used, in case you find it useful:
